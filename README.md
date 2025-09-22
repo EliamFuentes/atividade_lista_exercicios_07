@@ -48,7 +48,7 @@ Lista_tarefa_07
 │   │   exercicio01.iml
 │   │   
 │   └───src
-│           Main.java
+│           
 │           
 ├───exercicio02
 │   │   exercicio02.iml
