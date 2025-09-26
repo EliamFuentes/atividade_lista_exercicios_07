@@ -82,11 +82,14 @@ public class Produto {
 
         try {
             Produto produto2 = new Produto("Skate", 12.99, 30);
-            System.out.println("Antes do desconto: " + );
+            System.out.println("Antes do desconto: ");
             produto2.exibirInformacoes();
 
             produto2.aplicarDesconto(50);
             System.out.println("Quantidade após o desconto: ");
+            produto2.exibirInformacoes();
+        } catch (DescontoInvalidoException ex) {
+            System.out.println(ex.getMessage());
         }
     }
 }
