@@ -33,7 +33,7 @@ O objetivo é praticar conceitos fundamentais de **POO** em Java, incluindo clas
 
 ## Estrutura do Projeto
 
-Lista_tarefa_07
+Lista_tarefa_08
 │   lista_tarefa_07.iml
 │   README.md
 │   
@@ -44,47 +44,105 @@ Lista_tarefa_07
 │       vcs.xml
 │       workspace.xml
 │       
-├───exercicio01
-│   │   exercicio01.iml
-│   │   
-│   └───src
-│           
-│           
-├───exercicio02
-│   │   exercicio02.iml
-│   │   
-│   └───src
-│           Main.java
-│           
+├───out
+│   └───production
+│       └───lista_tarefa_07
+│           ├───exercicio01e02
+│           │       DescontoInvalidoException.class
+│           │       Produto.class
+│           │       
+│           ├───exercicio03
+│           │       Desenvolvedor.class
+│           │       Funcionario.class
+│           │       Gerente.class
+│           │       Principal.class
+│           │       
+│           ├───exercicio04
+│           │       Bicicleta.class
+│           │       Carro.class
+│           │       MeioTransporte.class
+│           │       Principal.class
+│           │       Trem.class
+│           │       
+│           ├───exercicio05
+│           │       Boleto.class
+│           │       CartaoCredito.class
+│           │       FormaPagamento.class
+│           │       PagamentoInvalidoException.class
+│           │       Pix.class
+│           │       Principal.class
+│           │       
+│           ├───exercicio06
+│           │       Carrinho.class
+│           │       Dinheiro.class
+│           │       ItemCarrinho.class
+│           │       Moeda.class
+│           │       Principal.class
+│           │       Produto.class
+│           │       
+│           ├───exercicio07
+│           │       Funcionario.class
+│           │       Identificavel.class
+│           │       InMemoryRepository.class
+│           │       IRepository.class
+│           │       Principal.class
+│           │       Produto.class
+│           │       
+│           └───exercicio08
+│                   CalculadoraFrete.class
+│                   CepInvalidoException.class
+│                   Pac.class
+│                   Pedido.class
+│                   Principal.class
+│                   RetiradaNaLoja.class
+│                   Sedex.class
+│                   
+└───src
+├───exercicio01e02
+│       Produto.java
+│       
 ├───exercicio03
-│   │   exercicio03.iml
-│   │   
-│   └───src
-│           Main.java
-│           
+│       Desenvolvedor.java
+│       Funcionario.java
+│       Gerente.java
+│       Principal.java
+│       
 ├───exercicio04
-│   │   exercicio04.iml
-│   │   
-│   └───src
-│           Main.java
-│           
+│       Bicicleta.java
+│       Carro.java
+│       MeioTransporte.java
+│       Principal.java
+│       Trem.java
+│       
 ├───exercicio05
-│   │   exercicio05.iml
-│   │   
-│   └───src
-│           Main.java
-│           
+│       Boleto.java
+│       CartaoCredito.java
+│       FormaPagamento.java
+│       PagamentoInvalidoException.java
+│       Pix.java
+│       Principal.java
+│       
 ├───exercicio06
-│   │   exercicio06.iml
-│   │   
-│   └───src
-│           Main.java
-│           
+│       Carrinho.java
+│       Dinheiro.java
+│       ItemCarrinho.java
+│       Moeda.java
+│       Principal.java
+│       Produto.java
+│       
 ├───exercicio07
-│   │   exercicio07.iml
-│   │   
-│   └───src
-│           Main.java
-│           
+│       Funcionario.java
+│       Identificavel.java
+│       InMemoryRepository.java
+│       IRepository.java
+│       Principal.java
+│       Produto.java
+│       
 └───exercicio08
-│   exercicio08.iml
+CalculadoraFrete.java
+CepInvalidoException.java
+Pac.java
+Pedido.java
+Principal.java
+RetiradaNaLoja.java
+Sedex.java
